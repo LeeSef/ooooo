@@ -1,0 +1,34 @@
+
+LeeSeFung@LeeSeFung-PC MINGW64 ~ (master)
+$ cd /c/Users/LeeSeFung/Desktop/git20170702
+
+LeeSeFung@LeeSeFung-PC MINGW64 ~/Desktop/git20170702 (master)
+$ ls
+tt.txt
+
+LeeSeFung@LeeSeFung-PC MINGW64 ~/Desktop/git20170702 (master)
+$ git init
+Initialized empty Git repository in C:/Users/LeeSeFung/Desktop/git20170702/.git/
+
+LeeSeFung@LeeSeFung-PC MINGW64 ~/Desktop/git20170702 (master)
+$ git add tt.txt
+
+LeeSeFung@LeeSeFung-PC MINGW64 ~/Desktop/git20170702 (master)
+$ git commit -m "first commit"
+[master (root-commit) a70a982] first commit
+ 1 file changed, 11 insertions(+)
+ create mode 100644 tt.txt
+
+LeeSeFung@LeeSeFung-PC MINGW64 ~/Desktop/git20170702 (master)
+$ git remote add origin https://github.com/LeeSef/ooooo.git
+
+LeeSeFung@LeeSeFung-PC MINGW64 ~/Desktop/git20170702 (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 323 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/LeeSef/ooooo.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
